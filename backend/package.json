@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend for Expense Tracker Management System using Node.js and Express",
   "main": "app.js",
   "type": "module",
   "scripts": {
@@ -9,7 +9,7 @@
     "dev": "nodemon app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ashish Gupta",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.3.5",
