@@ -140,7 +140,7 @@ create config folder and add config.env file in it and all all env variables the
 
 ## Screenshots
 
-#### Register
+#### Registration Page
 ![Register](./assets/Registraction.png)
 
 #### Login Page
@@ -149,7 +149,7 @@ create config folder and add config.env file in it and all all env variables the
 #### Dashboard
 ![Dashboard](./assets/Transaction.png)
 
-#### AddTransaction
+#### Add New Transaction
 ![Login](./assets/AddTransaction.png)
 
 #### Analytics
