@@ -146,9 +146,6 @@ create config folder and add config.env file in it and all all env variables the
 #### Login Page
 ![Login](./assets/login.png)
 
-#### Transactions
-![Transactions](./assets/transactions.png)
-
 #### Dashboard
 ![Dashboard](./assets/Transaction.png)
 
