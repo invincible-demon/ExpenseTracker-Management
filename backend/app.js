@@ -10,7 +10,6 @@ import userRoutes from "./Routers/userRouter.js";
 import path from "path";
 import cookieParser from "cookie-parser";
 
-dotenv.config({ path: "./config/config.env" });
 dotenv.config(); // Load environment variables from .env
 const app = express();
 
@@ -26,13 +25,15 @@ const allowedOrigins = [
 
 // Middleware
 app.use(express.json());
-app.use(
-  cors({
-    origin: allowedOrigins,
-    credentials: true,
-    methods: ["GET", "POST", "PUT", "DELETE"],
-  })
-);
+app.use(cors({
+  origin: [
+    "https://expense-tracker-management.vercel.app",
+    "http://localhost:3000",
+    process.env.FRONTEND_URL // Add your Railway frontend URL here
+  ],
+  credentials: true
+}));
+
 app.use(helmet());
 app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
 app.use(morgan("dev"));
