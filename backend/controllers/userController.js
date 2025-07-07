@@ -207,8 +207,12 @@ export const sendOtpController = async (req, res) => {
         console.log('OTP email sent successfully');
         return res.status(200).json({ success: true, message: "OTP sent to email" });
     } catch (err) {
-        console.error('Error in sendOtpController:', err);
-        return res.status(500).json({ success: false, message: err.message });
+        console.error("OTP send error:", err);
+        return res.status(500).json({
+            success: false,
+            message: "Failed to send OTP",
+            error: err.message,
+        });
     }
 };
 
