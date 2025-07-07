@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://expense-tracker-app-knl1.onrender.com",
+  baseURL: "https://expensetracker-management-production.up.railway.app",
   withCredentials: true,
 });
 
