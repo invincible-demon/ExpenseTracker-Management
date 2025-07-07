@@ -3,7 +3,7 @@
 
 ### Live Website: https://expense-tracker-management.vercel.app/
 
-### Vercel Link: https://expense-tracker-management.vercel.app/
+### Vercel Link: https://vercel.com/invincible-demons-projects/expense-tracker-management/CeGsC1rxKxz5d9UkPf89bD4UNGDy
 
 ## Project Description:
 
